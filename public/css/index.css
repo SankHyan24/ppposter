@@ -1,0 +1,79 @@
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* background: url('https://cdn.jsdelivr.net/gh/SankHyan24/image1/img/202209201937868.jpg'); */
+    background: url('../img/947687.png');
+
+    background-size: cover;
+    background-position: center;
+    font-family: 'roboto', sans-serif;
+}
+
+#demo {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(195, 114, 115);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.forms-child {
+    /* opacity: 0; */
+    padding: 20px;
+    display: flex;
+    height: 100%;
+    margin: 10px auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#post-avator {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#post-left-part {
+    width: 20%;
+    position: relative;
+    left: 0%;
+    height: 100%;
+    float: left;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+#post-pid {
+    font-size: small;
+    text-align: left;
+}
+
+#post-name {
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+
+#post-email {
+    font-size: small;
+    text-align: center;
+}
+
+#post-right-part {
+    width: 80%;
+    border: 2px solid #000;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: rgba(10, 10, 10, 0.1);
+}
