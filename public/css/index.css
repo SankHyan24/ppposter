@@ -1,17 +1,36 @@
 body {
     position: relative;
     width: 100%;
-    min-height: 100vh;
     height: auto;
     /* display: flex; */
     justify-content: center;
     align-items: center;
     /* background: url('https://cdn.jsdelivr.net/gh/SankHyan24/image1/img/202209201937868.jpg'); */
     background: url('../img/947687.png');
-
+    background-repeat: repeat;
     background-size: cover;
-    background-position: center;
     font-family: 'roboto', sans-serif;
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#ret-to-main {
+    text-align: center;
 }
 
 #demo {

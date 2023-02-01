@@ -23,7 +23,6 @@ module.exports = {
                         "icon": item.icon
                     }
                 })
-            console.log(data);
             res.json(data);
         }).catch(err => res.status(400).json('error getting imprint'));
         console.log('get_imprint: end');
