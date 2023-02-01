@@ -104,7 +104,7 @@ submitButtom.onclick = () => {
     submit_name = submit_name.substring(0, 25);
     submit_icon = submit_icon.substring(0, 100);
     submit_email = submit_email.substring(0, 50);
-    submit_message = submit_message.substring(0, 300);
+    submit_message = submit_message.substring(0, 250);
 
     add_imprint(submit_name, submit_email, submit_message, submit_icon);
 }   
